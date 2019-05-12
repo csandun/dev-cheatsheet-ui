@@ -1,6 +1,6 @@
 <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
   <div class="container">
-    <a class="navbar-brand mr-lg-5" [routerLink]="['/home']">
+    <a class="navbar-brand mr-lg-5" >
       <img src="./assets/img/brand/argon-white.png">
     </a>
     <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
@@ -11,7 +11,7 @@
       <div class="navbar-collapse-header">
         <div class="row">
           <div class="col-6 collapse-brand">
-            <a [routerLink]="['/home']">
+            <a >
               <img src="./assets/img/brand/blue.png">
             </a>
           </div>
@@ -32,7 +32,7 @@
           </a>
           <div class="dropdown-menu-xl dropdown-menu" >
             <div class="dropdown-menu-inner">
-              <a routerLinkActive="active" [routerLink]="['documentation/tutorial']" class="media d-flex align-items-center">
+              <a routerLinkActive="active"  class="media d-flex align-items-center">
                 <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
                   <i class="ni ni-spaceship"></i>
                 </div>
@@ -41,7 +41,7 @@
                   <p class="description d-none d-md-inline-block mb-0">Learn how to use Argon compiling Scss, change brand colors and more.</p>
                 </div>
               </a>
-              <a routerLinkActive="active" [routerLink]="['documentation/colors']" class="media d-flex align-items-center">
+              <a routerLinkActive="active"  class="media d-flex align-items-center">
                 <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
                   <i class="ni ni-palette"></i>
                 </div>
@@ -50,7 +50,7 @@
                   <p class="description d-none d-md-inline-block mb-0">Learn more about colors, typography, icons and the grid system we used for Argon.</p>
                 </div>
               </a>
-              <a routerLinkActive="active" [routerLink]="['documentation/alerts']" class="media d-flex align-items-center">
+              <a routerLinkActive="active" class="media d-flex align-items-center">
                 <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
                   <i class="ni ni-ui-04"></i>
                 </div>
@@ -68,10 +68,10 @@
             <span class="nav-link-inner--text">Examples</span>
           </a>
           <div class="dropdown-menu">
-            <a [routerLink]="['/landing']" class="dropdown-item">Landing</a>
-            <a [routerLink]="['/user-profile']" class="dropdown-item">Profile</a>
-            <a [routerLink]="['/login']" class="dropdown-item">Login</a>
-            <a [routerLink]="['/register']" class="dropdown-item">Register</a>
+            <a  class="dropdown-item">Landing</a>
+            <a  class="dropdown-item">Profile</a>
+            <a class="dropdown-item">Login</a>
+            <a class="dropdown-item">Register</a>
           </div>
         </li>
       </ul>
