@@ -12,6 +12,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { HomeModule } from './home/home.module';
 import { LoginComponent } from './login/login.component';
 import { CoreModule } from './core/core.module';
+import { CheatSheetsModule } from './cheat-sheets/cheat-sheets.module';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,6 @@ import { CoreModule } from './core/core.module';
     AppRoutingModule,
     HomeModule,
     CoreModule
-
   ],
   providers: [],
   bootstrap: [AppComponent]
